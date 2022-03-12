@@ -1,0 +1,18 @@
+###COMO VINCULAR UMA PASTA AO GIT?### 📓
+
+1. Criar pasta referente ao 'projeto'
+2. Abrir GIT BASH da pasta
+3. Iniciar vinculamento
+	>$ git init
+	>$ git remote add origin https:... _(copiar do <code> do git)
+4. Criar arquivos/pastas na pasta do 'projeto'
+	>$ git add .
+	>$ git commit -m "NOMEAR O REPOSITÓRIO"
+	>$ git push -u origin master
+	>$ git status
+
+*SEMPRE QUE FOR ATUALIZAR O REPOSITÓRIO:*
+	*>$ git add .*
+	*>$ git commit -m "NOMEAR O REPOSITÓRIO"*
+	*>$ git push -u origin master*
+	*>$ git status*
